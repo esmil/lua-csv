@@ -1,5 +1,5 @@
-CC	= cc
-CFLAGS  =-march=native -O2 -Wall -Wextra -pipe -pedantic
+CC      = gcc
+CFLAGS  = -march=native -O2 -Wall -Wextra -pipe -pedantic
 STRIP   = strip
 INSTALL = install
 
