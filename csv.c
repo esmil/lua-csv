@@ -226,8 +226,7 @@ csv_finish(lua_State *L)
 	lua_pushnil(L);
 	lua_rawseti(L, -2, pc->line);
 
-	lua_pushnil(L);
-	return 2;
+	return 1;
 }
 
 LUALIB_API int
